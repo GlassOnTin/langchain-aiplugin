@@ -17,7 +17,7 @@ langchain = "^0.0.126"
 openai = "^0.27.2"
 faiss-cpu = "^1.7"
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.dev.dependencies]
 black = { version="^23.1.0", extras=["jupyter"] }
 ruff = "^0.0.255"
 
